@@ -1,11 +1,12 @@
-A = [5, 2, 4, 6, 1, 3]
+A = []
 
-for j in range(1, len(A)):
-    key = A[j]
+for k in range(1,len(A)):
+    key = A[k]  # store the element at index k as key
 
-    i = j - 1
+    j = k - 1   # another var "j" to store the index before key
 
-    while (i >= 0) and A[i] > key:
-        A[i + 1] = A[i]
-        i -= 1
-    A[i + 1] = key
+    while j > -1 and A[j] > key:
+        A[j+1] = A[j]
+
+        j += 1
+    A[j+1] = key
