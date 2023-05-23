@@ -10,6 +10,7 @@ def mergesort(arr):
         mergesort(R)
 
         i = j = k = 0
+        
         while i < len(L) and j < len(R):
             if L[i] <= R[j]:
                 arr[k] = L[i]
