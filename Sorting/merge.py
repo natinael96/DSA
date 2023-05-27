@@ -1,8 +1,7 @@
 def mergesort(arr):
-
     if len(arr) > 1:
 
-        mid = len(arr)//2
+        mid = len(arr) // 2
         L = arr[:mid]
         R = arr[mid:]
 
@@ -10,7 +9,7 @@ def mergesort(arr):
         mergesort(R)
 
         i = j = k = 0
-        
+
         while i < len(L) and j < len(R):
             if L[i] <= R[j]:
                 arr[k] = L[i]
@@ -29,4 +28,3 @@ def mergesort(arr):
             arr[k] = R[j]
             j += 1
             k += 1
-
