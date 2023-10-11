@@ -1,5 +1,5 @@
 class Solution:
-    def arrayChange(self, nums: List[int], operations: List[List[int]]) -> List[int]:
+    def arrayChange(self, nums: list[int], operations: list[list[int]]) -> list[int]:
         position = {num: i for i, num in enumerate(nums)}
         
         for operation in operations:

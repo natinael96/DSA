@@ -1,5 +1,5 @@
 class Solution:
-    def addSpaces(self, s: str, spaces: List[int]) -> str:
+    def addSpaces(self, s: str, spaces: list[int]) -> str:
         new_str = ''
         i = 0
         while i < len(s):
