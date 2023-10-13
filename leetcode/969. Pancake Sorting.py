@@ -1,5 +1,5 @@
 class Solution:
-    def pancakeSort(self, arr: List[int]) -> List[int]:
+    def pancakeSort(self, arr: list[int]) -> list[int]:
         flip = []
         if arr == sorted(arr):
             return flip
