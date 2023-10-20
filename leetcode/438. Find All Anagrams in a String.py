@@ -13,7 +13,7 @@ class Solution:
         l = 0
         for r in range(len(s)):
             window[s[r]] += 1
-            if r >= window_size-1:
+            if r >= window_size-1: 
                 if window == pCount:
                     indices.append(l)
                 
