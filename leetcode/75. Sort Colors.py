@@ -16,7 +16,7 @@ class Solution:
                 low += 1
                 mid += 1
                 
-            elif nums[mid] == 1: # 1 is at correct place 
+            elif nums[mid] == 1: # 1 in correct place 
                 mid += 1
             
             elif nums[mid] == 2: # need to keep 2 this 2 at high's place
