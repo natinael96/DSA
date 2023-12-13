@@ -1,6 +1,5 @@
 n = int(input())
-for k in range(1,n+1):
-    if k == 1:
-        print(0)
-        continue
-    
+print(0)
+for k in range(2,n+1):
+    soln = ((k**2 *(k**2 - 1))//2) - (4*(k - 2)*(k - 1))
+    print(soln)
