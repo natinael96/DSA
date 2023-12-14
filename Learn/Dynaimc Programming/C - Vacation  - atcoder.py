@@ -11,7 +11,7 @@ for i in range(n):
     
 ans = max(dp[n][0], dp[n][1],dp[n][2])
 print(ans)
-
+\
 """
 n = int(input())
 
