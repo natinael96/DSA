@@ -1,16 +1,3 @@
-"""string = input().strip()
-n = len(string)
-m = int(input())
-
-ans = [0]*m
-for i in range(m):
-    l, r = map(int, input().split())
-    for j in range(l,r):
-        if string[j] == ".":
-            ans[i] += 1
-
-print("/".join(map(str,ans)))"""
-
 string = input().strip()
 n = len(string)
 m = int(input())
