@@ -10,5 +10,6 @@ for i in range(1, n + 1):
         dp[i] = max(dp[i], dp[i - b] + 1)
     if i - c >= 0 and dp[i - c] > -1:
         dp[i] = max(dp[i], dp[i - c] + 1)
-#print(dp)
+print(dp)
 print(dp[-1])
+

@@ -21,10 +21,12 @@ for i in range(len(v)):
 #print(dp)
 print(dp[-1])"""
 
+
 from collections import Counter
 
 n = int(input())
 arr = list(map(int, input().split()))
+
 cnt = Counter(arr)
 max_value = max(arr)
 dp = [0] * (max_value + 1)
